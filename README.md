@@ -15,7 +15,8 @@ wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/inst
 chmod +x install-geonode*
 ./install-geonode-part1.sh
 // ./install-geonode-part2.sh
-./install-geonode-part2-b.sh
+// ./install-geonode-part2-b.sh
+./install-geonode-part2-master.sh
 ```
 
 
