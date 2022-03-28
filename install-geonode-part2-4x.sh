@@ -6,7 +6,7 @@ sudo chown -Rf $USER:www-data /opt/geonode/
 sudo chmod -Rf 775 /opt/geonode/
 
 cd /opt
-git clone https://github.com/GeoNode/geonode.git -b 4.x geonode
+git clone https://github.com/zkasman/geonode.git -b 4.x-bw geonode
 
 cd /opt/geonode
 docker-compose -f docker-compose.yml pull
