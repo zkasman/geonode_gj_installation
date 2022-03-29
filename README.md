@@ -65,6 +65,7 @@ Default password: admin
   # stop GeoNode
   cd /opt/geonode
   docker-compose stop
+  
   # edit .env file using text editor (vi/nano/etc), change all occurence of "localhost" into desired hostname/ip address
   sudo nano .env
   
