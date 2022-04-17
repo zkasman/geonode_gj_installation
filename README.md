@@ -12,7 +12,7 @@ As your Ubuntu user (which can do sudo), do the following:
 wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part1.sh
 wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v33x-bw.sh
 --
-wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v33x.sh
+wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v331.sh
 
 // wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v4x.sh
 // wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2.sh
@@ -22,7 +22,7 @@ chmod +x install-geonode*
 ./install-geonode-part1.sh
 ./install-geonode-part2-v33x-bw.sh
 --
-./install-geonode-part2-v33x.sh
+./install-geonode-part2-v331.sh
 
 // ./install-geonode-part2-v4x.sh
 // ./install-geonode-part2.sh
