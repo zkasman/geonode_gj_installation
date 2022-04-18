@@ -39,6 +39,19 @@ After part2, check if geonode running correctly:
 ``` bash
 cd /opt/geonode
 docker logs -f django4geonode
+
+----
+# GeoNode Container
+docker-compose logs -f django
+
+# GeoServer Container
+docker-compose logs -f geoserver
+
+# DB Container
+docker-compose logs -f db
+
+# NGINX Container
+docker-compose logs -f geonode
 ```
 
 <hr>
