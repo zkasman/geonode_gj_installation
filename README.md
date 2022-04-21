@@ -10,23 +10,24 @@ Tested on Ubuntu 20.04 (Lubuntu, WSL2), Ubuntu 18.04 (WSL2)
 As your Ubuntu user (which can do sudo), do the following:
 ``` bash
 wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part1.sh
-wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v33x-bw.sh
+wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2.sh
 --
-wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v331.sh
-
 // wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v4x.sh
 // wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2.sh
 // wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-master.sh
+// wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v33x-bw.sh
+// wget https://raw.githubusercontent.com/zkasman/geonode_gj_installation/main/install-geonode-part2-v331.sh
 
 chmod +x install-geonode*
 ./install-geonode-part1.sh
-./install-geonode-part2-v33x-bw.sh
---
-./install-geonode-part2-v331.sh
+./install-geonode-part2.sh
 
+--
 // ./install-geonode-part2-v4x.sh
 // ./install-geonode-part2.sh
 // ./install-geonode-part2-master.sh
+// ./install-geonode-part2-v331.sh
+// ./install-geonode-part2-v33x-bw.sh
 ```
 
 ### Checking
