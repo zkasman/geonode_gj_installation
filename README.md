@@ -19,8 +19,6 @@ chmod +x install-geonode*
 ./install-geonode-part2.sh
 
 --
-// ./install-geonode-part2-v4x.sh
-// ./install-geonode-part2.sh
 // ./install-geonode-part2-master.sh
 ```
 
