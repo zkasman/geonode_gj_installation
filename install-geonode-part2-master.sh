@@ -9,5 +9,5 @@ cd /opt
 git clone https://github.com/GeoNode/geonode.git -b 3.3.2.post2 geonode
 
 cd /opt/geonode
-docker-compose build --no-cache
-docker-compose up -d
+docker-compose -f docker-compose.yml pull
+docker-compose -f docker-compose.yml up -d
